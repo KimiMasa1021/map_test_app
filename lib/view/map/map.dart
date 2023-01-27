@@ -30,6 +30,11 @@ class MapPage extends HookConsumerWidget {
                   myLocationButtonEnabled: true,
                   mapToolbarEnabled: false,
                   onTap: (LatLng latLang) {},
+                  markers: {
+                    const Marker(
+                      markerId: MarkerId("ew"),
+                    ),
+                  },
                 ),
               ],
             ),
